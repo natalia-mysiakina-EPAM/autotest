@@ -1,0 +1,22 @@
+apply plugin: 'java'
+
+group = 'com.epam.edp'
+version = '0.0.1-SNAPSHOT'
+
+description = """"""
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+repositories {
+    maven { url "https://repo.maven.apache.org/maven2" }
+}
+
+tasks.register('hello') {
+    doLast {
+        println 'Hello world!'
+    }
+}
