@@ -1,3 +1,4 @@
 {
-  "manual": "gradle -q hello"
+  "dev": "gradle -q hello",
+  "sit": "gradle -q hello"
 }
