@@ -1,5 +1,6 @@
 {
   "sit": "gradle -q hello",
   "qa": "gradle -q hello",
-  "uat": "gradle -q hello"
+  "uat": "gradle -q hello",
+  "123": "gradle -q hello"
 }
